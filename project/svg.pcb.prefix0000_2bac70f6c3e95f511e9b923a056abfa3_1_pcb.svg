@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" height="0.24in" width="0.256in" version="1.2" viewBox="0 0 256 240">
+    <desc>
+        <referenceFile>screw_terminal_2_100mil_pcb.svg</referenceFile>
+    </desc>
+    <g id="silkscreen" gorn="0.0">
+        <line y1="20" y2="230" x1="20" x2="20" stroke-width="10" id="vertical-left" stroke="white" gorn="0.0.0"/>
+        <line y1="230" y2="230" x1="20" x2="236" stroke-width="10" id="bottom" stroke="white" gorn="0.0.1"/>
+        <line y1="230" y2="20" x1="236" x2="236" stroke-width="10" id="vertical-right" stroke="white" gorn="0.0.2"/>
+        <line y1="20" y2="20" x1="236" x2="20" stroke-width="10" id="top" stroke="white" gorn="0.0.3"/>
+        <line y1="230" y2="20" x1="196" x2="196" stroke-width="5" id="mid-vertical" stroke="white" gorn="0.0.4"/>
+    </g>
+    <g id="copper1" gorn="0.1">
+        <g id="copper0" gorn="0.1.0">
+            <rect width="60" height="60" x="78" y="45" fill="none" stroke-width="20" id="square" stroke="rgb(255, 191, 0)" gorn="0.1.0.0"/>
+            <circle cx="108" cy="75" fill="none" stroke-width="20" id="connector0pin" r="30" stroke="rgb(255, 191, 0)" gorn="0.1.0.1"/>
+            <circle cx="108" cy="175" fill="none" stroke-width="20" id="connector1pin" r="30" stroke="rgb(255, 191, 0)" gorn="0.1.0.2"/>
+        </g>
+    </g>
+</svg>

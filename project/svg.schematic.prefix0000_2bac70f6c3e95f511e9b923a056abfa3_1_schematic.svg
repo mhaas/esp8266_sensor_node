@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" baseProfile="basic" width="0.3in" height="0.2in" x="0px" y="0px" xmlns:xml="http://www.w3.org/XML/1998/namespace" version="1.1"  id="svg2" viewBox="0 0 21.6 14.4" gorn="0">
+    <desc>
+        <referenceFile>screw_terminal_2_100mil_schem.svg</referenceFile>
+    </desc>
+    <g  id="schematic" gorn="0.0">
+        <line stroke-linejoin="round" y1="3.6" y2="3.6" x1="0.349999" x2="13.7" fill="none"  stroke-linecap="round" stroke-width="0.699999" id="connector0pin" stroke="#787878" gorn="0.0.0"/>
+        <rect width="0" height="0.699999" x="0" y="3.25"  id="connector0terminal" gorn="0.0.1"/>
+        <circle cx="17.3" cy="3.6" fill="none"  stroke-width="0.699999" r="2.9" stroke="#787878"/>
+        <line stroke-linejoin="round" y1="10.8" y2="10.8" x1="0.349999" x2="13.7" fill="none"  stroke-linecap="round" stroke-width="0.699999" id="connector1pin" stroke="#787878" gorn="0.0.3"/>
+        <rect width="0" height="0.699999" x="0" y="10.45"  id="connector1terminal" gorn="0.0.4"/>
+        <circle cx="17.3" cy="10.8" fill="none"  stroke-width="0.699999" r="2.9" stroke="#787878"/>
+    </g>
+</svg>
