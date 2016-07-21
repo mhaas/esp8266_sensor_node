@@ -1,0 +1,53 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=esp8266_sensors
+*Date=12:54:05
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;45.3277;-17.0731;0;Bottom;Via9
+2;;THT;8.47376;-17.1668;90;Bottom;U8
+3;;THT;42.7638;-13.3568;0;Bottom;J10
+4;5V;to-92;5.93376;-30.4129;0;Bottom;IC1
+5;10k;THT;24.9838;-22.2468;90;Bottom;R3
+6;;;-6.01412;5.12888;90;Bottom;Ruler2
+7;;;8.92334;-4.16619;0;Bottom;TXT1
+8;;;9.74376;-40.0268;0;Bottom;Via8
+9;;THT;31.3338;-4.46681;90;Bottom;J8
+10;;THT;5.80676;-43.0748;-90;Bottom;J6
+11;;THT;31.3338;-9.54681;90;Bottom;J7
+12;;THT;8.47376;-14.6268;90;Bottom;U9
+13;;[THT];50.6735;-16.4568;-90;Bottom;S2
+14;;;17.3637;-29.8668;0;Bottom;Via2
+15;;THT;19.9038;-27.3268;0;Bottom;J1
+16;;THT;37.6838;-27.3268;0;Bottom;J2
+17;;THT;42.7638;-20.9768;0;Bottom;J5
+18;;THT;8.47376;-19.7068;90;Bottom;U7
+19;10k;THT;42.7638;-38.4393;-90;Bottom;R1
+20;;;22.4437;-17.1668;0;Bottom;Via5
+21;;THT;31.3338;-7.00681;90;Bottom;J9
+22;;THT;12.2838;-31.1368;0;Bottom;J4
+23;;;51.6538;-36.1961;0;Bottom;DHT1
+24;;;14.8237;-29.8668;0;Bottom;Via1
+25;;THT;8.47376;-9.54681;90;Bottom;U11
+26;10k;THT;27.5238;-24.7868;90;Bottom;R2
+27;1 μF;100 mil [THT, tantalum];5.93376;-24.7868;0;Bottom;C4
+28;1 μF;100 mil [THT, tantalum];5.93376;-37.4868;0;Bottom;C3
+29;220;THT;13.2363;-42.5668;0;Bottom;R5
+30;;THT;8.47376;-7.00681;90;Bottom;U12
+31;;;22.4437;-9.5469;0;Bottom;Via6
+32;;;2.12376;-40.0268;0;Bottom;Via7
+33;220;THT;13.2363;-45.1068;0;Bottom;R4
+34;;;14.8238;-40.0268;0;Bottom;Via10
+35;;THT;8.47376;-12.0868;90;Bottom;U10
+36;;;30.0638;-14.6268;0;Bottom;Via4
+37;;;31.1764;-2.73114;0;Bottom;TXT2
+38;;;35.1438;-14.6268;0;Bottom;Via3
