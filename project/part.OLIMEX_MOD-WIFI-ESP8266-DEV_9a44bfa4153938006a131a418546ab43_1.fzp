@@ -1,0 +1,398 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module moduleId="OLIMEX_MOD-WIFI-ESP8266-DEV_9a44bfa4153938006a131a418546ab43_1" referenceFile="generic_ic_dip_8_300mil.fzp">
+ <version>4</version>
+ <author>Geno Roupsky</author>
+ <title>Olimex ESP8266 DEV</title>
+ <label>MOD-WIFI-ESP8266-DEV</label>
+ <date>вт март 31 2015</date>
+ <tags>
+  <tag>ESP8266</tag>
+  <tag>OLIMEX</tag>
+ </tags>
+ <properties>
+  <property name="variant">OLIMEX-MOD-WIFI-ESP8266-DEV</property>
+  <property name="family">ESP8266</property>
+ </properties>
+ <taxonomy>part.dip.8.pins</taxonomy>
+ <description>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:15px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px; background-color:#ffffff;">&lt;span style=" font-family:'Arial,Helvetica,sans-serif'; font-size:12px; color:#555555;">MOD-WIFI-ESP8266-DEV is the ultimate development board for ESP8266 with all GPIOs and resources exposed, can be soldered to PCB or used with breadboard and UEXT. Small U.FL connector is provided for external antenna connection.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:15px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Arial,Helvetica,sans-serif'; font-size:12px; color:#555555;">ESP8266 is very highly integrated SOC which includes Xtensa LX106 core processor, RAM, RF front end and allow WIFI TCP-IP stack to be implemented on board with just few components beside ESP8266. It's very new but promising IC and it attracted lot of attantion and community with it's launch.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px; background-color:#ffffff;">&lt;span style=" font-family:'Arial,Helvetica,sans-serif'; font-size:12px; color:#555555; background-color:#ffffff;">MOD-WIDI-ESP8266-DEV is development board for the famous ESP8266 Uart to WIFI IC. Our module comes with installed 2MB of SPI Flash while our competitors modules have just 512KB of SPI Flash, and all GPIO resources are available for breadboarding. Module is very easy to be used as component and solder on other PCB as on the bottom side it have no components.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px; font-family:'Arial,Helvetica,sans-serif'; font-size:12px; color:#555555; background-color:#ffffff;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px; background-color:#ffffff;">&lt;span style=" font-family:'Arial,Helvetica,sans-serif'; font-size:medium; font-weight:600; color:#555555; background-color:#ffffff;">FEATURES&lt;/span>&lt;/p>
+&lt;ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;">&lt;li style=" font-family:'Arial,Helvetica,sans-serif'; font-size:12px; color:#555555;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;">&lt;span style=" font-size:12px;">802.11 b / g / n&lt;/span>&lt;/li>
+&lt;li style=" font-family:'Arial,Helvetica,sans-serif'; font-size:12px; color:#555555;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;">&lt;span style=" font-size:12px;">Wi-Fi Direct (P2P), soft-AP&lt;/span>&lt;/li>
+&lt;li style=" font-family:'Arial,Helvetica,sans-serif'; font-size:12px; color:#555555;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;">&lt;span style=" font-size:12px;">Built-in TCP / IP protocol stack&lt;/span>&lt;/li>
+&lt;li style=" font-family:'Arial,Helvetica,sans-serif'; font-size:12px; color:#555555;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;">&lt;span style=" font-size:12px;">Built-in TR switch, balun, LNA, power amplifier and matching network&lt;/span>&lt;/li>
+&lt;li style=" font-family:'Arial,Helvetica,sans-serif'; font-size:12px; color:#555555;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;">&lt;span style=" font-size:12px;">Built-in PLL, voltage regulator and power management components&lt;/span>&lt;/li>
+&lt;li style=" font-family:'Arial,Helvetica,sans-serif'; font-size:12px; color:#555555;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;">&lt;span style=" font-size:12px;">802.11b mode + 19.5dBm output power&lt;/span>&lt;/li>
+&lt;li style=" font-family:'Arial,Helvetica,sans-serif'; font-size:12px; color:#555555;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;">&lt;span style=" font-size:12px;">Built-in temperature sensor&lt;/span>&lt;/li>
+&lt;li style=" font-family:'Arial,Helvetica,sans-serif'; font-size:12px; color:#555555;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;">&lt;span style=" font-size:12px;">Support antenna diversity&lt;/span>&lt;/li>
+&lt;li style=" font-family:'Arial,Helvetica,sans-serif'; font-size:12px; color:#555555;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;">&lt;span style=" font-size:12px;">off leakage current is less than 10uA&lt;/span>&lt;/li>
+&lt;li style=" font-family:'Arial,Helvetica,sans-serif'; font-size:12px; color:#555555;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;">&lt;span style=" font-size:12px;">Built-in low-power 32-bit CPU: can double as an application processor&lt;/span>&lt;/li>
+&lt;li style=" font-family:'Arial,Helvetica,sans-serif'; font-size:12px; color:#555555;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;">&lt;span style=" font-size:12px;">SDIO 2.0, SPI, UART&lt;/span>&lt;/li>
+&lt;li style=" font-family:'Arial,Helvetica,sans-serif'; font-size:12px; color:#555555;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;">&lt;span style=" font-size:12px;">STBC, 1×1 MIMO, 2×1 MIMO&lt;/span>&lt;/li>
+&lt;li style=" font-family:'Arial,Helvetica,sans-serif'; font-size:12px; color:#555555;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;">&lt;span style=" font-size:12px;">A-MPDU, A-MSDU aggregation and the 0.4 Within wake&lt;/span>&lt;/li>
+&lt;li style=" font-family:'Arial,Helvetica,sans-serif'; font-size:12px; color:#555555;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;">&lt;span style=" font-size:12px;">2ms, connect and transfer data packets&lt;/span>&lt;/li>
+&lt;li style=" font-family:'Arial,Helvetica,sans-serif'; font-size:12px; color:#555555;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;">&lt;span style=" font-size:12px;">standby power consumption of less than 1.0mW (DTIM3)&lt;/span>&lt;/li>&lt;/ul>&lt;/body>&lt;/html></description>
+ <views>
+  <iconView>
+   <layers image="icon/OLIMEX_MOD-WIFI-ESP8266-DEV_9f02adc1db3782aadf51c3433f4f0850_10_icon.svg">
+    <layer layerId="icon"/>
+   </layers>
+  </iconView>
+  <breadboardView>
+   <layers image="breadboard/OLIMEX_MOD-WIFI-ESP8266-DEV_9f02adc1db3782aadf51c3433f4f0850_10_breadboard.svg">
+    <layer layerId="breadboard"/>
+   </layers>
+  </breadboardView>
+  <schematicView>
+   <layers image="schematic/OLIMEX_MOD-WIFI-ESP8266-DEV_9f02adc1db3782aadf51c3433f4f0850_10_schematic.svg">
+    <layer layerId="schematic"/>
+   </layers>
+  </schematicView>
+  <pcbView>
+   <layers image="pcb/OLIMEX_MOD-WIFI-ESP8266-DEV_9f02adc1db3782aadf51c3433f4f0850_10_pcb.svg">
+    <layer layerId="silkscreen"/>
+    <layer layerId="copper0"/>
+    <layer layerId="copper1"/>
+   </layers>
+  </pcbView>
+ </views>
+ <connectors>
+  <connector type="male" id="connector0" name="3.3V">
+   <description>pin 1</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" terminalId="connector0terminal" svgId="connector0pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector0terminal" svgId="connector0pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector0pin"/>
+     <p layer="copper1" svgId="connector0pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector1" name="GND">
+   <description>pin 2</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" terminalId="connector1terminal" svgId="connector1pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector1terminal" svgId="connector1pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector1pin"/>
+     <p layer="copper1" svgId="connector1pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector2" name="GPIO1">
+   <description>pin 3</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" terminalId="connector2terminal" svgId="connector2pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector2terminal" svgId="connector2pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector2pin"/>
+     <p layer="copper1" svgId="connector2pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector3" name="GPIO3">
+   <description>pin 4</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" terminalId="connector3terminal" svgId="connector3pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector3terminal" svgId="connector3pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector3pin"/>
+     <p layer="copper1" svgId="connector3pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector4" name="SD_CLK">
+   <description>pin 5</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" terminalId="connector4terminal" svgId="connector4pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector4terminal" svgId="connector4pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector4pin"/>
+     <p layer="copper1" svgId="connector4pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector5" name="SD_D2">
+   <description>pin 6</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" terminalId="connector5terminal" svgId="connector5pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector5terminal" svgId="connector5pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector5pin"/>
+     <p layer="copper1" svgId="connector5pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector6" name="SD_D1">
+   <description>pin 7</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" terminalId="connector6terminal" svgId="connector6pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector6terminal" svgId="connector6pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector6pin"/>
+     <p layer="copper1" svgId="connector6pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector7" name="SD_CMD">
+   <description>pin 8</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" terminalId="connector7terminal" svgId="connector7pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector7terminal" svgId="connector7pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector7pin"/>
+     <p layer="copper1" svgId="connector7pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector9" name="SD_D0">
+   <description>pin 9</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector9pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector9pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector9pin"/>
+     <p layer="copper1" svgId="connector9pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector10" name="SD_D3">
+   <description>pin 10</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector10pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector10pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector10pin"/>
+     <p layer="copper1" svgId="connector10pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector11" name="GPIO5">
+   <description>pin 11</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector11pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector11pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector11pin"/>
+     <p layer="copper1" svgId="connector11pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector12" name="ADC">
+   <description>pin 12</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector12pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector12pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector12pin"/>
+     <p layer="copper1" svgId="connector12pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector13" name="RSTB">
+   <description>pin 13</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector13pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector13pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector13pin"/>
+     <p layer="copper1" svgId="connector13pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector14" name="CHIP_E">
+   <description>pin 14</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector14pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector14pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector14pin"/>
+     <p layer="copper1" svgId="connector14pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector15" name="GPIO16">
+   <description>pin 15</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector15pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector15pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector15pin"/>
+     <p layer="copper1" svgId="connector15pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector16" name="GPIO12">
+   <description>pin 16</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector16pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector16pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector16pin"/>
+     <p layer="copper1" svgId="connector16pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector17" name="GPIO14">
+   <description>pin 17</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector17pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector17pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector17pin"/>
+     <p layer="copper1" svgId="connector17pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector18" name="GPIO13">
+   <description>pin 18</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector18pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector18pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector18pin"/>
+     <p layer="copper1" svgId="connector18pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector19" name="GPIO15">
+   <description>pin 19</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector19pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector19pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector19pin"/>
+     <p layer="copper1" svgId="connector19pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector20" name="GPIO2">
+   <description>pin 20</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector20pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector20pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector20pin"/>
+     <p layer="copper1" svgId="connector20pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector21" name="GPIO0">
+   <description>pin 21</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector21pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector21pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector21pin"/>
+     <p layer="copper1" svgId="connector21pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector22" name="GPIO4">
+   <description>pin 22</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector22pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" svgId="connector22pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper0" svgId="connector22pin"/>
+     <p layer="copper1" svgId="connector22pin"/>
+    </pcbView>
+   </views>
+  </connector>
+ </connectors>
+ <url>https://www.olimex.com/Products/IoT/MOD-WIFI-ESP8266-DEV/</url>
+</module>
