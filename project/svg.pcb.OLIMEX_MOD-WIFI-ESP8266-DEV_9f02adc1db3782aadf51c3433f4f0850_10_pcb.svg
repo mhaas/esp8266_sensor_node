@@ -371,7 +371,7 @@ circle.j0 {fill:#000000; }
                                 </g>
                             </g>
                         </g>
-                        <g id="copper0" gorn="0.1.0.0.0.0.38" >
+                        <g id="copper1"> <g id="copper0" gorn="0.1.0.0.0.0.38" >
                             <g transform="matrix(0.28222223,0,0,0.28222223,-19.943522,-52.962109)" >
                                 <g >
                                     <g >
@@ -570,7 +570,7 @@ circle.j0 {fill:#000000; }
                                     </g>
                                 </g>
                             </g>
-                        </g>
+                        </g> </g>
                         <g transform="translate(-19.817557,-29.34011)" >
                             <g >
                                 <g >
